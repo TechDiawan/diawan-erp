@@ -23,7 +23,7 @@ class UserSeeder extends Seeder
                     'name' => 'Super Admin',
                     'email' => 'superadmin@acculance.top',
                     'email_verified_at' => Carbon::now(),
-                    'password' => Hash::make('acculance2024'),
+                    'password' => 'acculance2024',//Hash::make('acculance2024'),
                     'account_role' => 1,
                     'is_active' => 1,
                 ],
