@@ -250,7 +250,7 @@ export default {
       // Fetch the user.
       await this.$store.dispatch("auth/fetchUser");
       // Redirect home.
-      //this.redirect();
+      this.redirect();
     },
     redirect() {
       const intendedUrl = Cookies.get("intended_url");
