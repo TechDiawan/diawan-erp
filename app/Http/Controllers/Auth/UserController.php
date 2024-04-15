@@ -25,6 +25,10 @@ class UserController extends Controller
         return new UserResource($request->user());
     }
 
+    public function testing_page(Request $request)
+    {
+        return $request->bearerToken();
+    }
     public function allUser(){
         $users = User::where('is_active', true)->get();
     

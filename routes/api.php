@@ -59,7 +59,10 @@ Route::post('/login', [LoginController::class, 'login'])->name('central.login');
 // return dynamic pages content
 Route::get('pages-by-slug/{slug}', [PageController::class, 'showBySlug']);
 
-Route::group(['middleware' => 'auth:sanctum', 'as' => 'central.'], function () {
+
+Route::post('testing-page', [UserController::class, 'testing_page']);
+
+Route::group(['middleware' => '', 'as' => 'central.'], function () {
     // update profile
     Route::post('/update-profile', [DashboardController::class, 'updateProfile']);
 
