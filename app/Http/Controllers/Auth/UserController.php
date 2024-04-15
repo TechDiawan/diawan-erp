@@ -21,7 +21,7 @@ class UserController extends Controller
      */
     public function current(Request $request)
     {
-        dd($request->user());
+        dd($request->bearerToken());
         return new UserResource($request->user());
     }
 
