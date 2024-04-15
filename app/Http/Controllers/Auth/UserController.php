@@ -21,6 +21,7 @@ class UserController extends Controller
      */
     public function current(Request $request)
     {
+        dd($request->user());
         return new UserResource($request->user());
     }
 
