@@ -1,6 +1,9 @@
 <?php
 
 
+$token = $request->header('Authorization');
+echo $token;
+
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServerController;
@@ -62,7 +65,7 @@ Route::get('pages-by-slug/{slug}', [PageController::class, 'showBySlug']);
 
 Route::post('testing-page', [UserController::class, 'testing_page']);
 
-Route::group(['as' => 'central.'], function () {
+Route::group(['middleware' => 'auth:sanctum', 'as' => 'central.'], function () {
     // update profile
     Route::post('/update-profile', [DashboardController::class, 'updateProfile']);
 
