@@ -1,5 +1,8 @@
 <?php
 
+print_r($_REQUEST);
+print_r($_SERVER);
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServerController;
 use App\Http\Controllers\VersionController;
