@@ -2,7 +2,7 @@
 
 
 $token = request()->header('Authorization');
-echo $token;
+echo 'test';
 
 
 use Illuminate\Support\Facades\Route;
