@@ -1,9 +1,6 @@
 <?php
 
 
-$token = request()->header('Authorization');
-echo 'test';
-
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServerController;
