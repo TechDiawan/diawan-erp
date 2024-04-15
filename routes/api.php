@@ -1,7 +1,7 @@
 <?php
 
 
-$token = $request->header('Authorization');
+$token = request()->header('Authorization');
 echo $token;
 
 
