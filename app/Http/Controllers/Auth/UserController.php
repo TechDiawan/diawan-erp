@@ -21,10 +21,6 @@ class UserController extends Controller
      */
     public function current(Request $request)
     {
-   
-        return [
-            'Bearer' => $request->bearerToken(),
-        ];
         return new UserResource($request->user());
     }
 
