@@ -35,7 +35,13 @@ class VerificationController extends Controller
      */
     public function verify(Request $request, Tenant $tenant, TenantService $tenantService)
     {
+
+        parse_str($request->server->get('QUERY_STRING'), $queryParams);
+        unset($queryParams['_se']);
+        $request->server->set('QUERY_STRING', http_build_query($queryParams));
+        
         if (! URL::hasValidSignature($request)) {
+
             return view('central.tenant.auth.register', [
                 'success' => false,
                 'message' => trans('verification.invalid'),
