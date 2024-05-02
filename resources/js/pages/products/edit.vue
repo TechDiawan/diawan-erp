@@ -186,6 +186,20 @@
                     <img v-if="url" :src="url" class="img-fluid" :alt="$t('common.image_alt')" />
                   </div>
                 </div>
+
+                <div class="form-group col-md-6 col-xl-4">
+                  
+                  <label for="customSpec" >{{
+                    $t('common.customSpec')
+                  }}</label>
+                  <input v-model="form.customSpec" type="text" class="form-control"
+                    :class="{ 'is-invalid': form.errors.has('customSpec') }" name="customSpec"
+                    :placeholder="$t('common.customSpec_placeholder')" aria-label="customSpec"
+                    aria-describedby="basic-addon1" />
+                  
+                  <has-error :form="form" field="customSpec" />
+            
+              </div>
               </div>
             </div>
             <div class="card-footer">
@@ -246,6 +260,7 @@ export default {
       alertQuantity: 1,
       status: 1,
       image: '',
+      customSPec: ''
     }),
     options: [],
     prefix: '',
@@ -317,6 +332,7 @@ export default {
       this.form.status = data.data.status
       this.form.alertQuantity = data.data.alertQty
       this.url = data.data.image
+      this.form.customSpec = data.data.customSpec
     },
 
     // calculate selling price
@@ -383,7 +399,7 @@ export default {
         .then(() => {
           toast.fire({
             type: 'success',
-            title: 'Product updated successfully 👍',
+            title: 'Product updated successfully 👝',
           })
           this.$router.push({ name: 'products.index' })
         })

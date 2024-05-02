@@ -143,6 +143,10 @@
                   <td>{{ allData.note }}</td>
                 </tr>
                 <tr>
+                  <th>{{ $t('common.customSpec') }}</th>
+                  <td>{{ allData.customSpec }}</td>
+                </tr>
+                <tr>
                   <th>{{ $t('common.status') }}</th>
                   <td>
                     <span v-if="allData.status === 1" class="badge bg-success">{{ $t('common.active') }}</span>

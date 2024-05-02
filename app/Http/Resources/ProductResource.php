@@ -39,6 +39,7 @@ class ProductResource extends JsonResource
             'note' => $this->note,
             'status' => (int) $this->status,
             'image' => $this->image_path,
+            'customSpec' => $this->custom_spec
         ];
     }
 }

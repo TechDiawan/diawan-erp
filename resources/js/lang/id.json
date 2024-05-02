@@ -108,7 +108,7 @@
   "already_registered": "Sudah terdaftar?",
   "register_policy": "Saya setuju dengan Ketentuan Layanan dan Kebijakan Privasi.",
   "register_page_title": "Daftar Instan Gratis selama 14 hari, tidak perlu kartu kredit…",
-  "register_next_step": "Satu langkah lagi 👍",
+  "register_next_step": "Satu langkah lagi 👝",
   "email_sent": "Kami telah mengirim email ke",
   "confirm_account": "Silakan klik tautan konfirmasi di dalamnya untuk menyelesaikan akun Anda.",
   "check_email": "Tidak mendapatkan email? Silakan periksa folder spam Anda atau",
@@ -348,6 +348,8 @@
     "total_return": "Pengembalian Total",
     "discount": "Diskon",
     "discount_placeholder": "Masukkan diskon",
+    "customSpec": "Spesifikasi custom",
+    "customSpec_placeholder": "Masukkan spesifikasi custom",
     "supplier_details": "Detail Pemasok",
     "client_details": "Detail Klien",
     "supplier_id": "ID pemasok",
@@ -631,7 +633,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Kategori",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Kategori berhasil ditambahkan 👍"
+        "success_msg": "Kategori berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Kategori Pengeluaran",
@@ -640,7 +642,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Kategori",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Kategori berhasil diperbarui 👍"
+        "success_msg": "Kategori berhasil diperbarui 👝"
       }
     },
     "sub_categories": {
@@ -659,7 +661,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Sub Kategori",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Sub kategori berhasil ditambahkan 👍"
+        "success_msg": "Sub kategori berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Sub Kategori Pengeluaran",
@@ -668,7 +670,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Sub Kategori",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Sub kategori berhasil diperbarui 👍"
+        "success_msg": "Sub kategori berhasil diperbarui 👝"
       }
     },
     "list": {
@@ -691,7 +693,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pengeluaran",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Biaya berhasil ditambahkan 👍"
+        "success_msg": "Biaya berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit pengeluaran",
@@ -700,7 +702,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pengeluaran",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Biaya berhasil diperbarui 👍"
+        "success_msg": "Biaya berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Rincian Biaya",
@@ -754,7 +756,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pembelian",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Pembelian berhasil ditambahkan 👍"
+        "success_msg": "Pembelian berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Pembelian",
@@ -763,7 +765,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pembelian",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Pembelian berhasil diperbarui 👍"
+        "success_msg": "Pembelian berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Pembelian",
@@ -796,7 +798,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pengembalian Pembelian",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Pengembalian pembelian berhasil ditambahkan 👍"
+        "success_msg": "Pengembalian pembelian berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Pengembalian Pembelian",
@@ -805,7 +807,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pengembalian Pembelian",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Pengembalian pembelian berhasil diperbarui 👍"
+        "success_msg": "Pengembalian pembelian berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Pengembalian Pembelian",
@@ -851,7 +853,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "kutipan",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Kutipan berhasil ditambahkan 👍"
+        "success_msg": "Kutipan berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Kutipan",
@@ -860,7 +862,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "kutipan",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Kutipan berhasil diperbarui 👍"
+        "success_msg": "Kutipan berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Kutipan",
@@ -877,7 +879,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "kutipan",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Faktur berhasil dibuat 👍"
+        "success_msg": "Faktur berhasil dibuat 👝"
       }
     },
     "invoices": {
@@ -897,7 +899,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Faktur",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Faktur berhasil ditambahkan 👍"
+        "success_msg": "Faktur berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Faktur",
@@ -906,7 +908,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Faktur",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Faktur berhasil diperbarui 👍"
+        "success_msg": "Faktur berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Faktur",
@@ -934,7 +936,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pengembalian Faktur",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Pengembalian faktur berhasil ditambahkan 👍"
+        "success_msg": "Pengembalian faktur berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Pengembalian Faktur",
@@ -943,7 +945,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pengembalian Faktur",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Pengembalian faktur berhasil diperbarui 👍"
+        "success_msg": "Pengembalian faktur berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Pengembalian Faktur",
@@ -991,7 +993,7 @@
         "breadcrumbs_second": "buku kas",
         "breadcrumbs_third": "Akun",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Akun berhasil ditambahkan 👍"
+        "success_msg": "Akun berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Mengedit akun",
@@ -1001,7 +1003,7 @@
         "breadcrumbs_second": "buku kas",
         "breadcrumbs_third": "Akun",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Akun berhasil diperbarui 👍"
+        "success_msg": "Akun berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Transaksi Akun",
@@ -1032,7 +1034,7 @@
         "breadcrumbs_second": "buku kas",
         "breadcrumbs_third": "Penyesuaian",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Penyesuaian berhasil ditambahkan 👍"
+        "success_msg": "Penyesuaian berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Saldo",
@@ -1042,7 +1044,7 @@
         "breadcrumbs_second": "buku kas",
         "breadcrumbs_third": "Saldo",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Saldo berhasil diperbarui 👍"
+        "success_msg": "Saldo berhasil diperbarui 👝"
       }
     },
     "transfers": {
@@ -1064,7 +1066,7 @@
         "breadcrumbs_second": "buku kas",
         "breadcrumbs_third": "Transfer Saldo",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Transfer saldo berhasil ditambahkan 👍"
+        "success_msg": "Transfer saldo berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Transfer Saldo",
@@ -1074,7 +1076,7 @@
         "breadcrumbs_second": "buku kas",
         "breadcrumbs_third": "Transfer Saldo",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Transfer berhasil diperbarui 👍"
+        "success_msg": "Transfer berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Transfer Saldo",
@@ -1136,7 +1138,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Faktur",
           "breadcrumbs_active": "Membuat",
-          "success_msg": "Pembayaran faktur berhasil ditambahkan 👍"
+          "success_msg": "Pembayaran faktur berhasil ditambahkan 👝"
         },
         "edit": {
           "page_title": "Edit Pembayaran Faktur Klien",
@@ -1146,7 +1148,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Faktur",
           "breadcrumbs_active": "Sunting",
-          "success_msg": "Pembayaran faktur berhasil diperbarui 👍"
+          "success_msg": "Pembayaran faktur berhasil diperbarui 👝"
         },
         "view": {
           "page_title": "Detail Pembayaran Faktur",
@@ -1175,7 +1177,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Non Faktur",
           "breadcrumbs_active": "Membuat",
-          "success_msg": "Pembayaran berhasil ditambahkan 👍"
+          "success_msg": "Pembayaran berhasil ditambahkan 👝"
         },
         "edit": {
           "page_title": "Edit Pengembalian Faktur",
@@ -1185,7 +1187,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Non Faktur",
           "breadcrumbs_active": "Sunting",
-          "success_msg": "Pembayaran berhasil diperbarui 👍"
+          "success_msg": "Pembayaran berhasil diperbarui 👝"
         }
       }
     },
@@ -1208,7 +1210,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Pembelian",
           "breadcrumbs_active": "Membuat",
-          "success_msg": "Pembayaran pemasok berhasil ditambahkan 👍"
+          "success_msg": "Pembayaran pemasok berhasil ditambahkan 👝"
         },
         "edit": {
           "page_title": "Edit Pembayaran Pembelian Pemasok",
@@ -1218,7 +1220,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Pembelian",
           "breadcrumbs_active": "Sunting",
-          "success_msg": "Pembayaran berhasil diperbarui 👍"
+          "success_msg": "Pembayaran berhasil diperbarui 👝"
         },
         "view": {
           "page_title": "Rincian Pembayaran Pembelian Pemasok",
@@ -1247,7 +1249,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Non Pembelian",
           "breadcrumbs_active": "Membuat",
-          "success_msg": "Pembayaran berhasil ditambahkan 👍"
+          "success_msg": "Pembayaran berhasil ditambahkan 👝"
         },
         "edit": {
           "page_title": "Edit Pembayaran Tanpa Pembelian",
@@ -1257,7 +1259,7 @@
           "breadcrumbs_second": "Pembayaran",
           "breadcrumbs_third": "Pembayaran Non Pembelian",
           "breadcrumbs_active": "Sunting",
-          "success_msg": "Pembayaran berhasil diperbarui 👍"
+          "success_msg": "Pembayaran berhasil diperbarui 👝"
         }
       }
     }
@@ -1317,7 +1319,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Otoritas Pinjaman",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Otoritas pinjaman berhasil ditambahkan 👍"
+        "success_msg": "Otoritas pinjaman berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Otoritas Pinjaman",
@@ -1326,7 +1328,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Otoritas Pinjaman",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Otoritas pinjaman berhasil diperbarui 👍"
+        "success_msg": "Otoritas pinjaman berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Lihat Otoritas Pinjaman",
@@ -1353,7 +1355,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pembayaran pinjaman",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Pembayaran pinjaman berhasil ditambahkan 👍"
+        "success_msg": "Pembayaran pinjaman berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Pembayaran Pinjaman",
@@ -1362,7 +1364,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pembayaran pinjaman",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Pembayaran berhasil diperbarui 👍"
+        "success_msg": "Pembayaran berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Rincian Pembayaran Pinjaman",
@@ -1389,7 +1391,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pinjaman",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Pinjaman berhasil ditambahkan 👍"
+        "success_msg": "Pinjaman berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Pinjaman",
@@ -1398,7 +1400,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Pinjaman",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Pinjaman berhasil diperbarui 👍"
+        "success_msg": "Pinjaman berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Pinjaman",
@@ -1445,7 +1447,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Jenis Aset",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Jenis aset berhasil ditambahkan 👍"
+        "success_msg": "Jenis aset berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Jenis Aset",
@@ -1454,7 +1456,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Jenis Aset",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Jenis Aset berhasil diperbarui 👍"
+        "success_msg": "Jenis Aset berhasil diperbarui 👝"
       }
     },
     "list": {
@@ -1474,7 +1476,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Aktiva",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Aset berhasil ditambahkan 👍"
+        "success_msg": "Aset berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Aset",
@@ -1483,7 +1485,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Aktiva",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Aset berhasil diperbarui 👍"
+        "success_msg": "Aset berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Aset",
@@ -1538,7 +1540,7 @@
       "breadcrumbs_first": "Dasbor",
       "breadcrumbs_second": "Daftar gaji",
       "breadcrumbs_active": "Membuat",
-      "success_msg": "Penggajian berhasil ditambahkan 👍"
+      "success_msg": "Penggajian berhasil ditambahkan 👝"
     },
     "edit": {
       "page_title": "Sunting Penggajian",
@@ -1547,7 +1549,7 @@
       "breadcrumbs_first": "Dasbor",
       "breadcrumbs_second": "Daftar gaji",
       "breadcrumbs_active": "Sunting",
-      "success_msg": "Penggajian berhasil diperbarui 👍"
+      "success_msg": "Penggajian berhasil diperbarui 👝"
     },
     "view": {
       "page_title": "Detail Penggajian",
@@ -1577,7 +1579,7 @@
       "breadcrumbs_first": "Dasbor",
       "breadcrumbs_second": "klien",
       "breadcrumbs_active": "Membuat",
-      "success_msg": "Klien berhasil ditambahkan 👍"
+      "success_msg": "Klien berhasil ditambahkan 👝"
     },
     "edit": {
       "page_title": "Edit Klien",
@@ -1586,7 +1588,7 @@
       "breadcrumbs_first": "Dasbor",
       "breadcrumbs_second": "klien",
       "breadcrumbs_active": "Sunting",
-      "success_msg": "Klien berhasil diperbarui 👍"
+      "success_msg": "Klien berhasil diperbarui 👝"
     },
     "view": {
       "page_title": "Detail Klien",
@@ -1616,7 +1618,7 @@
       "breadcrumbs_first": "Dasbor",
       "breadcrumbs_second": "Pemasok",
       "breadcrumbs_active": "Membuat",
-      "success_msg": "Pemasok berhasil ditambahkan 👍"
+      "success_msg": "Pemasok berhasil ditambahkan 👝"
     },
     "edit": {
       "page_title": "Sunting Pemasok",
@@ -1625,7 +1627,7 @@
       "breadcrumbs_first": "Dasbor",
       "breadcrumbs_second": "Pemasok",
       "breadcrumbs_active": "Sunting",
-      "success_msg": "Pemasok berhasil diperbarui 👍"
+      "success_msg": "Pemasok berhasil diperbarui 👝"
     },
     "view": {
       "page_title": "Detail Pemasok",
@@ -1685,7 +1687,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Departemen",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Departemen berhasil ditambahkan 👍"
+        "success_msg": "Departemen berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Departemen",
@@ -1694,7 +1696,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Departemen",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Departemen berhasil diperbarui 👍"
+        "success_msg": "Departemen berhasil diperbarui 👝"
       }
     },
     "increments": {
@@ -1714,7 +1716,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Kenaikan",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Peningkatan berhasil ditambahkan 👍"
+        "success_msg": "Peningkatan berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Kenaikan Gaji",
@@ -1723,7 +1725,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Kenaikan",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Peningkatan berhasil diperbarui 👍"
+        "success_msg": "Peningkatan berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Kenaikan",
@@ -1749,7 +1751,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Para karyawan",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Karyawan berhasil ditambahkan 👍"
+        "success_msg": "Karyawan berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Karyawan",
@@ -1758,7 +1760,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Para karyawan",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Karyawan berhasil diperbarui 👍"
+        "success_msg": "Karyawan berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Karyawan",
@@ -1787,7 +1789,7 @@
         "breadcrumbs_second": "Produk",
         "breadcrumbs_third": "Kategori",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Kategori berhasil ditambahkan 👍"
+        "success_msg": "Kategori berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Kategori Produk",
@@ -1797,7 +1799,7 @@
         "breadcrumbs_second": "Produk",
         "breadcrumbs_third": "Kategori",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Kategori berhasil diperbarui 👍"
+        "success_msg": "Kategori berhasil diperbarui 👝"
       }
     },
     "sub_categories": {
@@ -1817,7 +1819,7 @@
         "breadcrumbs_second": "Produk",
         "breadcrumbs_third": "Sub Kategori",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Sub kategori berhasil ditambahkan 👍"
+        "success_msg": "Sub kategori berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Sub Kategori Produk",
@@ -1827,7 +1829,7 @@
         "breadcrumbs_second": "Produk",
         "breadcrumbs_third": "Sub Kategori",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Sub kategori berhasil diperbarui 👍"
+        "success_msg": "Sub kategori berhasil diperbarui 👝"
       }
     },
     "list": {
@@ -1866,7 +1868,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Produk",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Produk berhasil ditambahkan 👍"
+        "success_msg": "Produk berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Sunting Produk",
@@ -1875,7 +1877,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Produk",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Produk berhasil diperbarui 👍"
+        "success_msg": "Produk berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Rincian Produk",
@@ -1948,7 +1950,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Penyesuaian",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Penyesuaian berhasil ditambahkan 👍"
+        "success_msg": "Penyesuaian berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Edit Penyesuaian",
@@ -1957,7 +1959,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Penyesuaian",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Penyesuaian berhasil diperbarui 👍"
+        "success_msg": "Penyesuaian berhasil diperbarui 👝"
       },
       "view": {
         "page_title": "Detail Penyesuaian",
@@ -2130,7 +2132,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_active": "Perbarui pengaturan umum",
         "form_title": "Perbarui pengaturan umum",
-        "success_message": "Pengaturan berhasil diperbarui 👍",
+        "success_message": "Pengaturan berhasil diperbarui 👝",
         "company_info": {
           "info_title": "Tambahkan Informasi Perusahaan Anda",
           "company_tagline": "Tagline Perusahaan",
@@ -2223,7 +2225,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "mata uang",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Mata uang berhasil ditambahkan 👍",
+        "success_msg": "Mata uang berhasil ditambahkan 👝",
         "form_title": "Buat mata uang"
       },
       "edit": {
@@ -2233,7 +2235,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "mata uang",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Mata uang berhasil diperbarui 👍",
+        "success_msg": "Mata uang berhasil diperbarui 👝",
         "form_title": "Sunting mata uang"
       }
     },
@@ -2252,7 +2254,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Satuan",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Unit berhasil ditambahkan 👍",
+        "success_msg": "Unit berhasil ditambahkan 👝",
         "form_title": "Buat unit"
       },
       "edit": {
@@ -2262,7 +2264,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Satuan",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Unit berhasil diperbarui 👍",
+        "success_msg": "Unit berhasil diperbarui 👝",
         "form_title": "Edit satuan"
       }
     },
@@ -2288,7 +2290,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Izin",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Izin berhasil ditambahkan 👍"
+        "success_msg": "Izin berhasil ditambahkan 👝"
       },
       "edit": {
         "page_title": "Izin Edit",
@@ -2298,7 +2300,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Izin",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Izin berhasil diperbarui 👍"
+        "success_msg": "Izin berhasil diperbarui 👝"
       }
     },
     "role_and_permission": {
@@ -2317,7 +2319,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Peran & Izin",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Peran berhasil ditambahkan 👍",
+        "success_msg": "Peran berhasil ditambahkan 👝",
         "form_title": "Buat peran",
         "select_permission": "Pilih Izin:"
       },
@@ -2328,7 +2330,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Peran & Izin",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Peran berhasil diperbarui 👍",
+        "success_msg": "Peran berhasil diperbarui 👝",
         "form_title": "Edit peran",
         "update_permission": "Perbarui Izin:"
       }
@@ -2353,7 +2355,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Tarif PPN",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Tarif PPN berhasil ditambahkan 👍",
+        "success_msg": "Tarif PPN berhasil ditambahkan 👝",
         "form_title": "Buat tarif PPN"
       },
       "edit": {
@@ -2363,7 +2365,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Tarif PPN",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Tarif PPN berhasil diperbarui 👍",
+        "success_msg": "Tarif PPN berhasil diperbarui 👝",
         "form_title": "Edit tarif PPN"
       }
     },
@@ -2387,7 +2389,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Merek",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Merek berhasil ditambahkan 👍",
+        "success_msg": "Merek berhasil ditambahkan 👝",
         "form_title": "Buat merek"
       },
       "view": {
@@ -2405,7 +2407,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Merek",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Merek berhasil diperbarui 👍",
+        "success_msg": "Merek berhasil diperbarui 👝",
         "form_title": "Sunting merek"
       }
     },
@@ -2424,7 +2426,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "cara Pembayaran",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Metode Pembayaran berhasil ditambahkan 👍",
+        "success_msg": "Metode Pembayaran berhasil ditambahkan 👝",
         "form_title": "Buat metode pembayaran"
       },
       "edit": {
@@ -2434,7 +2436,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "cara Pembayaran",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Metode pembayaran berhasil diperbarui 👍",
+        "success_msg": "Metode pembayaran berhasil diperbarui 👝",
         "form_title": "Sunting metode pembayaran"
       }
     },
@@ -2465,7 +2467,7 @@
     "new_password_placeholder": "Masukan kata sandi baru",
     "confirm_password": "konfirmasi sandi",
     "confirm_password_placeholder": "Masukkan kata sandi konfirmasi",
-    "success_msg": "Profil berhasil diperbarui 👍"
+    "success_msg": "Profil berhasil diperbarui 👝"
   },
   "stock_alert": {
     "page_title": "Produk Peringatan Stok",
@@ -2481,7 +2483,7 @@
     "export": "Ekspor",
     "format": "Format",
     "format_sql": "SQL (.sql)",
-    "success_msg": "Cadangan berhasil diunduh 👍"
+    "success_msg": "Cadangan berhasil diunduh 👝"
   },
   "permission_denied": {
     "page_title": "Izin ditolak",
@@ -2545,7 +2547,7 @@
     "breadcrumbs_current": "Pengaturan Halaman Arahan",
     "breadcrumbs_first": "Dasbor",
     "breadcrumbs_active": "Pengaturan Halaman Arahan",
-    "success_msg": "Pengaturan Halaman Arahan berhasil diperbarui 👍",
+    "success_msg": "Pengaturan Halaman Arahan berhasil diperbarui 👝",
     "form_title": "Pengaturan Halaman Arahan",
     "page_title": "Pengaturan Halaman Arahan"
   },
@@ -2563,7 +2565,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "halaman",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Halaman berhasil diperbarui 👍",
+        "success_msg": "Halaman berhasil diperbarui 👝",
         "form_title": "Edit halaman"
       },
       "name": "halaman",
@@ -2583,7 +2585,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "halaman",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Halaman berhasil ditambahkan 👍",
+        "success_msg": "Halaman berhasil ditambahkan 👝",
         "form_title": "Buat Halaman"
       },
       "name_placeholder": "Nama halaman",
@@ -2603,7 +2605,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Kirim email",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Surat berhasil terkirim 👍",
+        "success_msg": "Surat berhasil terkirim 👝",
         "form_title": "Kirim email"
       }
     },
@@ -2623,7 +2625,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Gambar Pengaturan Frontend",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Gambar Pengaturan Frontend berhasil diperbarui 👍",
+        "success_msg": "Gambar Pengaturan Frontend berhasil diperbarui 👝",
         "form_title": "Edit Gambar Pengaturan Frontend",
         "image": "Gambar",
         "title": "Judul",
@@ -2638,7 +2640,7 @@
         "breadcrumbs_second": "Mempersiapkan",
         "breadcrumbs_third": "Gambar Pengaturan Frontend",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Gambar Pengaturan Frontend berhasil ditambahkan 👍",
+        "success_msg": "Gambar Pengaturan Frontend berhasil ditambahkan 👝",
         "form_title": "Buat Gambar Pengaturan Frontend",
         "image": "Gambar",
         "title": "Judul",
@@ -2663,7 +2665,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Penyewa",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Penyewa berhasil ditambahkan 👍",
+        "success_msg": "Penyewa berhasil ditambahkan 👝",
         "form_title": "Buat penyewa"
       },
       "edit": {
@@ -2672,14 +2674,14 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "Penyewa",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Penyewa berhasil diperbarui 👍",
+        "success_msg": "Penyewa berhasil diperbarui 👝",
         "form_title": "Edit penyewa"
       },
       "index": {
         "deleted": "Dihapus",
         "delete_title": "Hapus Penyewa",
         "delete_warning": "Anda yakin ingin menghapus penyewa ini?",
-        "delete_success": "Penyewa berhasil dihapus 👍",
+        "delete_success": "Penyewa berhasil dihapus 👝",
         "delete_confirm_text": "Ya, hapus!",
         "page_title": "Penyewa",
         "breadcrumbs_current": "Penyewa",
@@ -2719,7 +2721,7 @@
     },
     "send_notification": {
       "create": {
-        "success_msg": "Notifikasi berhasil terkirim 👍",
+        "success_msg": "Notifikasi berhasil terkirim 👝",
         "page_title": "Kirim Pemberitahuan"
       },
       "page_title": "Kirim Pemberitahuan",
@@ -2732,7 +2734,7 @@
       "message": "Pesan",
       "message_placeholder": "Masukkan pesan",
       "send": "Kirim",
-      "success_msg": "Notifikasi berhasil terkirim 👍",
+      "success_msg": "Notifikasi berhasil terkirim 👝",
       "greeting": "Salam",
       "greeting_placeholder": "Masukkan salam",
       "body": "Tubuh"
@@ -2744,7 +2746,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "item",
         "breadcrumbs_active": "Membuat",
-        "success_msg": "Item berhasil ditambahkan 👍",
+        "success_msg": "Item berhasil ditambahkan 👝",
         "form_title": "Buat Barang"
       },
       "edit": {
@@ -2753,7 +2755,7 @@
         "breadcrumbs_first": "Dasbor",
         "breadcrumbs_second": "item",
         "breadcrumbs_active": "Sunting",
-        "success_msg": "Barang berhasil diupdate 👍",
+        "success_msg": "Barang berhasil diupdate 👝",
         "form_title": "Edit rencana"
       },
       "index": {
@@ -2801,7 +2803,7 @@
         "breadcrumbs_current": "Buat Rencana",
         "form_title": "Buat rencana",
         "page_title": "Buat Rencana",
-        "success_msg": "Paket berhasil ditambahkan 👍"
+        "success_msg": "Paket berhasil ditambahkan 👝"
       },
       "edit": {
         "breadcrumbs_first": "Dasbor",

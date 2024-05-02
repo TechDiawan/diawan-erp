@@ -16,7 +16,7 @@ class Product extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'slug', 'code', 'model', 'barcode_symbology', 'sub_cat_id', 'brand_id', 'unit_id', 'tax_id', 'tax_type', 'purchase_price', 'regular_price', 'discount', 'inventory_count', 'alert_qty', 'note', 'status', 'image_path',
+        'name', 'slug', 'code', 'model', 'barcode_symbology', 'sub_cat_id', 'brand_id', 'unit_id', 'tax_id', 'tax_type', 'purchase_price', 'regular_price', 'discount', 'inventory_count', 'alert_qty', 'note', 'status', 'image_path', 'custom_spec'
     ];
 
     /**

@@ -61,7 +61,8 @@ class ProductController extends Controller
             'subCategory' => 'required',
             'brand' => 'nullable',
             'itemUnit' => 'required',
-            'productTax' => 'required',
+            'customSpec' => 'required',
+            'productTax' => '',
             'taxType' => 'required',
             'regularPrice' => 'required|numeric|min:0',
             'discount' => 'nullable|numeric|min:0|max:100',
@@ -113,6 +114,7 @@ class ProductController extends Controller
                 'tax_type' => $request->taxType,
                 'regular_price' => $request->regularPrice,
                 'discount' => $discount,
+                'custom_spec' => $request->customSpec,
                 'note' => clean($request->note),
                 'alert_qty' => $request->alertQuantity,
                 'status' => $request->status,
@@ -162,6 +164,7 @@ class ProductController extends Controller
             'itemUnit' => 'required',
             'productTax' => 'required',
             'taxType' => 'required',
+            'customSpec' => '',
             'regularPrice' => 'required|numeric|min:0',
             'discount' => 'nullable|numeric|min:0|max:100',
             'note' => 'nullable|string|max:255',
@@ -209,6 +212,7 @@ class ProductController extends Controller
                 'alert_qty' => $request->alertQuantity,
                 'status' => $request->status,
                 'image_path' => $imageName,
+                'custom_spec' => $request->customSpec
             ]);
 
             return $this->responseWithSuccess('Product updated successfully');

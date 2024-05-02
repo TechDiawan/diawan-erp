@@ -183,7 +183,24 @@
                     <img v-if="url" :src="url" class="img-fluid" :alt="$t('common.image_alt')" />
                   </div>
                 </div>
+
+                <div class="form-group col-md-6 col-xl-4">
+                  
+                    <label for="customSpec" >{{
+                      $t('common.customSpec')
+                    }}</label>
+                    <input v-model="form.customSpec" type="text" class="form-control"
+                      :class="{ 'is-invalid': form.errors.has('customSpec') }" name="customSpec"
+                      :placeholder="$t('common.customSpec_placeholder')" aria-label="customSpec"
+                      aria-describedby="basic-addon1" />
+                    
+                    <has-error :form="form" field="customSpec" />
+              
+                </div>
               </div>
+
+              
+              
             </div>
             <div class="card-footer">
               <v-button :loading="form.busy" class="btn btn-primary">
@@ -243,6 +260,7 @@ export default {
       alertQuantity: 1,
       status: 1,
       image: '',
+      customSpec: '',
     }),
     options: [],
     units: [],
