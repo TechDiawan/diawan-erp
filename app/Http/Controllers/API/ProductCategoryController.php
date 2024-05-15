@@ -28,6 +28,11 @@ class ProductCategoryController extends Controller
      */
     public function index(Request $request)
     {
+        if($request->withTrash)
+        {
+            return ProductCategoryResource::collection(ProductCategory::onlyTrashed()->latest()->paginate($request->perPage));
+        }
+
         return ProductCategoryResource::collection(ProductCategory::latest()->paginate($request->perPage));
     }
 

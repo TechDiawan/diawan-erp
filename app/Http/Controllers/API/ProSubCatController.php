@@ -32,6 +32,9 @@ class ProSubCatController extends Controller
      */
     public function index(Request $request)
     {
+        if ($request->withTrash) {
+            return ProductSubCategoryResource::collection(ProductSubCategory::onlyTrashed()->latest()->paginate($request->perPage));
+        }
         return ProductSubCategoryResource::collection(ProductSubCategory::with('category')->latest()->paginate($request->perPage));
     }
 

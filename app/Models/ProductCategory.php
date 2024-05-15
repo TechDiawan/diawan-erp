@@ -5,10 +5,11 @@ namespace App\Models;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ProductCategory extends Model
 {
-    use Sluggable, HasFactory;
+    use Sluggable, HasFactory, SoftDeletes;
 
     /**
      * The attributes that are mass assignable.
@@ -16,7 +17,7 @@ class ProductCategory extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'code', 'slug', 'note', 'status',
+        'name', 'code', 'slug', 'note', 'status', 
     ];
 
     /**

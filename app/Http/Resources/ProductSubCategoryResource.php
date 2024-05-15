@@ -22,6 +22,7 @@ class ProductSubCategoryResource extends JsonResource
             'slug' => $this->slug,
             'note' => $this->note,
             'status' => (int) $this->status,
+            'deleted_at' => $this->deleted_at,
         ];
     }
 }

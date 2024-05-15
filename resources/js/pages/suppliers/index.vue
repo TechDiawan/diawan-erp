@@ -20,6 +20,9 @@
                 <a href="#" @click="uploadCsvModalShow()" v-tooltip="'Import'" class="btn btn-dark">
                   <i class="fas fa-upload"></i>
                 </a>
+                <a @click="refreshTable(true)" v-tooltip="$t('common.view_archived')" class="btn btn-danger">
+                  <i class="fa fa-trash"></i>
+                </a>
                 <a :href="exportUrl" v-tooltip="$t('common.export_excel')" class="btn btn-info">
                   <i class="fa fa-arrow-circle-down"></i>
                 </a>
@@ -107,16 +110,19 @@
                     <td>{{ data.email }}</td>
                     <td>{{ data.companyName }}</td>
                     <td>
-                      <span v-if="data.status === 1" class="badge bg-success">{{
+                      <span v-if="data.deleted_at &&data.deleted_at.length > 0" class="badge bg-danger">{{
+                        $t("common.deleted")
+                      }}</span>
+                      <span v-else-if="data.status === 1" class="badge bg-success">{{
                         $t("common.active")
                       }}</span>
                       <span v-else class="badge bg-danger">{{
                         $t("common.in_active")
                       }}</span>
                     </td>
-                    <td v-if="$can('supplier-view') ||
+                    <td v-if="($can('supplier-view') ||
                         $can('supplier-edit') ||
-                        $can('supplier-delete')
+                        $can('supplier-delete')) && !data.deleted_at
                         " class="text-right no-print">
                       <div class="btn-group">
                         <router-link v-if="$can('supplier-view')" v-tooltip="$t('common.view')" :to="{
@@ -349,12 +355,12 @@ export default {
       this.searchData();
     },
     // refresh table
-    refreshTable() {
+    refreshTable(withTrash = false) {
       this.query = "";
       this.dateRange.startDate = null;
       this.dateRange.endDate = null;
 
-      this.query === "" ? this.getData() : this.searchData();
+      this.query === "" ? this.getData(withTrash) : this.searchData();
 
       setTimeout(
         function () {
@@ -370,12 +376,13 @@ export default {
       this.query === "" ? this.getData() : this.searchData();
     },
     // get data
-    async getData() {
+    async getData(withTrash = false) {
       this.$store.state.operations.loading = true;
       let currentPage = this.pagination ? this.pagination.current_page : 1;
       await this.$store.dispatch("operations/fetchData", {
         path: "/api/suppliers?page=",
         currentPage: currentPage + "&perPage=" + this.perPage,
+        trash: "&withTrash="+ (withTrash ? '1' : '0'),
       });
     },
 

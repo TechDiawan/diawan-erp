@@ -25,6 +25,7 @@ class SupplierListResource extends JsonResource
             'address' => $this->address,
             'status' => (int) $this->status,
             'image' => $this->image_path ? global_asset('/images/suppliers/'.$this->image_path) : '',
+            'deleted_at' => $this->deleted_at,
         ];
     }
 }

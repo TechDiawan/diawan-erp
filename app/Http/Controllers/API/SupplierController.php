@@ -47,6 +47,10 @@ class SupplierController extends Controller
      */
     public function index(Request $request)
     {
+        if ($request->withTrash) {
+            return SupplierListResource::collection(Supplier::onlyTrashed()->latest()->paginate($request->perPage));
+        }
+        
         return SupplierListResource::collection(Supplier::latest()->paginate($request->perPage));
     }
 

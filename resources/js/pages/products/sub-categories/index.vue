@@ -20,6 +20,9 @@
                 <a :href="exportUrl" v-tooltip="$t('common.export_excel')" class="btn btn-info">
                   <i class="fa fa-arrow-circle-down"></i>
                 </a>
+                <a @click="refreshTable(true)" v-tooltip="$t('common.view_archived')" class="btn btn-danger">
+                  <i class="fa fa-trash"></i>
+                </a>
                 <a href="/product-sub-categories/pdf" v-tooltip="$t('common.export_pdf')" class="btn btn-secondary">
                   <i class="fas fa-file-export"></i>
                 </a>
@@ -76,15 +79,18 @@
                     <td>{{ data.code | withPrefix(subCatPrefix) }}</td>
                     <td>{{ data.name }}</td>
                     <td>
-                      <span v-if="data.status === 1" class="badge bg-success">{{
+                      <span v-if="data.deleted_at && data.deleted_at.length > 0" class="badge bg-danger">{{
+                        $t("common.deleted")
+                      }}</span>
+                      <span v-else-if="data.status === 1" class="badge bg-success">{{
                         $t("common.active")
                       }}</span>
                       <span v-else class="badge bg-danger">{{
                         $t("common.in_active")
                       }}</span>
                     </td>
-                    <td v-if="$can('product-sub-category-edit') ||
-                        $can('product-sub-category-delete')
+                    <td v-if="($can('product-sub-category-edit') ||
+                        $can('product-sub-category-delete')) && !data.deleted_at
                         " class="text-right no-print">
                       <div class="btn-group">
                         <router-link v-if="$can('product-sub-category-edit')" v-tooltip="$t('common.edit')" :to="{
@@ -192,12 +198,13 @@ export default {
       this.query === "" ? this.getData() : this.searchData();
     },
     // get data
-    async getData() {
+    async getData(withTrash = false) {
       this.$store.state.operations.loading = true;
       let currentPage = this.pagination ? this.pagination.current_page : 1;
       await this.$store.dispatch("operations/fetchData", {
         path: "/api/product-sub-categories?page=",
         currentPage: currentPage + "&perPage=" + this.perPage,
+        trash: "&withTrash="+ (withTrash ? '1' : '0'),
       });
     },
 
@@ -233,9 +240,9 @@ export default {
     },
 
     // refresh table
-    refreshTable() {
+    refreshTable(withTrash = false) {
       this.query = "";
-      this.query === "" ? this.getData() : this.searchData();
+      this.query === "" ? this.getData(withTrash) : this.searchData();
     },
 
     // delete data

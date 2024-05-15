@@ -20,6 +20,7 @@ return new class extends Migration
             $table->integer('code')->nullable();
             $table->string('note')->nullable();
             $table->boolean('status')->nullable()->default(1);
+            
             $table->timestamps();
         });
     }

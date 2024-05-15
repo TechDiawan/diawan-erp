@@ -65,9 +65,9 @@ export const actions = {
   },
 
   // Fetch Data
-  async fetchData({ commit }, { path, currentPage }) {
+  async fetchData({ commit }, { path, currentPage, trash }) {
     const { data } = await axios.get(
-      window.location.origin + path + currentPage
+      window.location.origin + path + currentPage + (trash ? trash : '')
     )
     commit(types.FETCH_DATA, { items: data, loading: false })
   },
